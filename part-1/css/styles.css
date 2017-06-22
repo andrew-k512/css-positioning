@@ -17,6 +17,7 @@ body {
 
 .container {
   width: 90%;
+  height: 250px;
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
@@ -25,24 +26,41 @@ body {
 .box {
   width: 200px;
   height: 200px;
+  position: absolute;
 }
 
 .red {
   background-color: pink;
+  z-index: 8;
+  top: 40px;
+  left:-100px
 }
 
 .green {
   background-color: lightgreen;
+  z-index: 2;
+  top: 100px;
+  left: 400px
 }
 
 .blue {
   background-color: lightblue;
+  z-index: 6;
+  top: 180px;
+  left: 250px;
 }
 
 .orange {
   background-color: orange;
+  z-index: 4;
+  top: 120px;
+  left: 35px;
 }
 
 .yellow {
   background-color: yellow;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%
 }
