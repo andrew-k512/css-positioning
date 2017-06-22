@@ -14,16 +14,60 @@ html {
 body {
   margin: 0;
 }
-
-img {
-  max-width: 100%;
+p {
+  font-size: 35px;
+}
+h1 {
+  font-size:2em;
 }
 
+img {
+  width: 100%;
+}
 figure {
   margin: 0;
 }
+article.film {
+  display: block;
+}
+i {
+  color: red;
+}
 
 .film {
-  width: 50%;
+  width: 80%;
   margin: 40px auto;
+  clear: both;
+  border: 1px solid black;
+  height: 500px;
+}
+.film-poster {
+  float: left;
+  display: inline;
+  width: 25%;
+  margin: 10px;
+  position: relative;
+
+}
+.film-details {
+  display: inline;
+  height: 100%;
+  margin: 20px 20px 20px 20px;
+  position: relative;
+}
+.film-description {
+  height: 100%;
+}
+div {
+ display: inline-block;
+}
+.action-like {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.action-watch-later {
+  position: absolute;
+  top: 5px;
+  right:5px;
 }
